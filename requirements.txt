@@ -1,0 +1,21 @@
+# Основные библиотеки для RAG проекта
+# Обновленные версии для совместимости с tiktoken
+
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-text-splitters>=0.2.0
+chromadb>=0.4.22
+streamlit>=1.29.0
+pypdf2>=3.0.1
+python-dotenv>=1.0.0
+openai>=1.12.0
+
+# Явно указываем tiktoken для избежания проблем с компиляцией
+tiktoken>=0.5.0
+
+# Для HuggingFace embeddings (бесплатно, локально)
+sentence-transformers>=2.2.2
+
+# Для Qwen (бесплатная модель для ответов)
+langchain-qwq>=0.3.0
